@@ -1,5 +1,16 @@
 # Yelpcamp-clone
 
+<p float="left">
+<img src="https://img.shields.io/badge/-HTML-blue">
+<img src="https://img.shields.io/badge/-CSS-blue">
+<img src="https://img.shields.io/badge/-Javascript-blue">
+<img src="https://img.shields.io/badge/-Bootstrap-blue">
+<img src="https://img.shields.io/badge/-NODE-blue">
+<img src="https://img.shields.io/badge/-Express-blue">
+<img src="https://img.shields.io/badge/-Mongo-blue">
+<img src="https://img.shields.io/badge/-PassportJS-blue">
+</p>
+
 This is a web application where users can post sites that they visited, and write descriptions about them. Other users can then post there review about the place in the app. They can give app stars to rate them, and describe about what more could be done to make the user-experience better. The app removes the curtain between the service-providers, in the hospitality and tourism industry and the travellers who visit them. Users can also browse the places, called as campgrounds in the application to decide where they should head into in there next vacations.
 
 <hr>
