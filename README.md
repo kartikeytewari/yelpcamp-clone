@@ -15,8 +15,8 @@ This is a web application where users can post sites that they visited, and writ
 
 The tech stack used is:
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - EJS
 - Bootstrap-3
 - Javascript
