@@ -23,12 +23,15 @@ app.set("view engine","ejs");
 app.use(express.static(__dirname+"/public"));
 app.use(method_override("_method"));
 app.use(flash());
-mongoose.set('useNewUrlParser', true);
-mongoose.set('useFindAndModify', false);
-mongoose.set('useCreateIndex', true);
-mongoose.set('useUnifiedTopology', true);
+
+// configuring mongoose
 const db_url = process.env.database_url || "mongodb://localhost/yelpcamp"
+mongoose.set('strictQuery', false);
+console.log("process.env.database_url = " + process.env.database_url);
+console.log("db_url = " + db_url);
 mongoose.connect(db_url);
+
+
 
 // passport configuration
 app.use(require("express-session")({
