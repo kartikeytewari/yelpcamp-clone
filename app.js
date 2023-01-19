@@ -11,6 +11,7 @@ const campground=require("./models/campgrounds");
 const comment=require("./models/comments");
 const user=require("./models/user");
 const seedDB=require("./seedDB.js");
+require('dotenv').config();
 
 // importing routes
 const campground_routes=require("./routes/campgrounds.js");
@@ -27,13 +28,9 @@ app.use(flash());
 // configuring mongoose
 const db_url = process.env.database_url || "mongodb://localhost/yelpcamp"
 mongoose.set('strictQuery', false);
-console.log("process.env.database_url = " + process.env.database_url);
-console.log("db_url = " + db_url);
 mongoose.connect(db_url);
 
-
-
-// passport configuration
+// configuring passport 
 app.use(require("express-session")({
     secret: "bjhevbjfwheihifhwuoahouhuhoububljabjbvran.vn",
     resave: false,
