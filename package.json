@@ -10,7 +10,7 @@
   "author": "Kartikey Tewari",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^2.2.0",
+    "body-parser": "^2.2.1",
     "connect-flash": "^0.1.1",
     "dotenv": "^17.2.3",
     "ejs": "^3.1.10",
